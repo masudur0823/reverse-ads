@@ -8,10 +8,9 @@ import facebook from '../../assets/images/icons/facebook-icon.svg'
 function Footer() {
   return (
     <footer>
-      <div className="container">
+      <div className="c_container">
         <div className='foot_top'>
           <img src={logo} alt="" />
-
           <div className="row g-2 g-md-5  m-0 mt-4">
             <div className="col-md-6 col-lg-4">
               <div>

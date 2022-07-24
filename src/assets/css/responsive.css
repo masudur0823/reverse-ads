@@ -10,6 +10,29 @@
     .menu_ul li a {
         font-size: 16px;
     }
+
+    /* home page start */
+    .t_one {
+        font-size: 70px;
+    }
+
+    .p_one {
+        font-size: 25px;
+    }
+
+    .image_bg {
+        min-height: 800px;
+    }
+
+    .h_s_f_subDesc{
+        font-size: 28px;
+    }
+
+    .home_sec_five_table td{
+        font-size: 25px;
+    }
+
+    /* home page end */
 }
 
 @media only screen and (max-width: 1450px) {
@@ -168,7 +191,29 @@
     }
 
     /* humberger end */
+}
 
+@media only screen and (max-width: 992px) {
+
+    /* common area start */
+    .t_one {
+        font-size: 30px;
+    }
+
+    .p_one {
+        font-size: 14px;
+    }
+
+    .btn_pink {
+        font-size: 14px;
+        padding: 5px 40px;
+    }
+
+    .image_bg {
+        min-height: 500px;
+    }
+
+    /* common area end */
     /* footer area start */
     .foot_title {
         font-size: 20px;
@@ -185,9 +230,72 @@
     /* footer area end */
 }
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+
+    /* common area start */
+    .t_one {
+        font-size: 22px;
+    }
+
+    .p_one {
+        font-size: 12px;
+    }
+
+    .subscribe_button {
+        font-size: 12px;
+        padding: 3px 25px;
+    }
+
+    .image_bg {
+        min-height: 400px;
+    }
+
+
+    /* common area end */
+
+    /* home page start */
+    .home_sec_two {
+        background-position: initial;
+    }
+
+    .h_s_t_img {
+        height: 250px;
+    }
+
+    .h_s_three_child{
+        padding: 40px 0px;
+    }
+
+    .h_s_f_subDesc {
+        font-size: 15px;
+    }
+
+    .home_sec_five_table td{
+        font-size: 12px;
+    }
+
+    .home_sec_five_table td:nth-of-type(2) {
+        padding-left: 10px;
+    }
+
+    .home_sec_six_child1{
+        padding-top: 40px;
+    }
+
+
+
+    /* home page end */
+}
 
 @media only screen and (max-width: 600px) {
+
+    .image_bg {
+        min-height: 365px;
+    }
+
+    .sec_py{
+        padding: 40px 0px;
+    }
 
     /* footer area start */
     .foot_title {
@@ -216,4 +324,28 @@
     }
 
     /* footer area end */
+
+
+    /* home page area start */
+    .h_s_t_img {
+        height: 150px;
+    }
+
+    .home_sec_three {
+        grid-template-columns: 1fr;
+    }
+
+    .home_sec_six {
+        grid-template-columns: 1fr;
+    }
+
+    .home_sec_six_child1{
+        display: none;
+    }
+
+    .home_sec_six_child2{
+        width: 90%;
+    }
+
+    /* home page area end */
 }
