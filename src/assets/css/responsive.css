@@ -228,6 +228,10 @@
     }
 
     /* footer area end */
+
+    .NewsCard_main {
+        bottom: 40px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -290,7 +294,19 @@
     }
 
 
+    .NewsCard_main {
+        width: 80%;
+        position: relative;
+        left: initial;
+        margin: 0 auto;
+        transform: initial;
+        margin-top: 40px;
+        bottom: 0px;
+    }
 
+    .newsBtn{
+        width: 25px;
+    }
     /* home page end */
 }
 

@@ -4,6 +4,7 @@ import keywordDataCloud from '../../assets/images/homePage/keyword-data-cloud.pn
 import videoImg from '../../assets/images/homePage/world-reach-section.mp4'
 import google from '../../assets/images/homePage/google-homescreen.png'
 import aboutHome from '../../assets/images/homePage/about-us-home.png'
+import NewsCard from '../../components/NewsCard/NewsCard'
 
 function Home() {
   return (
@@ -12,6 +13,36 @@ function Home() {
       <img src={google} className="google_homescreen" alt="" />
       {/* google page*/}
       {/* home_sec_one start*/}
+      <div className="home_sec_one image_bg">
+        <video loop autoPlay muted>
+          <source
+            src={videoImg}
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <div className='home_sec_first'>
+          <h1 className='home_sec_one_title'>The Keyword NeTWORK</h1>
+        </div>
+
+        <div className='home_sec_second'>
+          <div>
+            <div className='text-center'>
+              <h1 className='t_one text-white'>
+                The Only Predictive Roadmap <br />
+                to the Open Internet
+              </h1>
+
+              <p className='p_one text-white mt-2 mt-md-4'>
+                ReverseAds data mines over 1 million sites across the open internet every hour.
+              </p>
+              <p className='p_one text-white mt-2 mt-md-4'>
+                Our Keyword Assignment Algorithm analyzes every word, image and video,<br /> and assigns a value  br based on search engagement metrics and IAB Industry<br /> category. Whenever a consumer engages with these keywords, we determine<br /> their intent to purchase a specific product or service, allowing brands to<br /> deliver valuable insight at the ideal moment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* home_sec_one end*/}
 
       {/*home_sec_two start*/}
@@ -193,9 +224,9 @@ function Home() {
       {/*home_sec_seven start*/}
       <div className="home_sec_seven image_bg">
         <div className="c_container sec_py">
-          <div className="row m-0">
+          <div className="row m-0 flex-column-reverse flex-lg-row">
             <div className="col-lg-6">
-              <h1 className='t_one'>About us</h1>
+              <h1 className='t_one mt-4 mt-lg-0'>About us</h1>
 
               <div className="row g-4 mt-0 mt-md-4">
                 <div className="col-md-6">
@@ -246,7 +277,18 @@ function Home() {
       {/*home_sec_eight start*/}
       <div className="home_sec_eight image_bg">
         <div className="c_container sec_py">
+          <div className="col-lg-5 col-md-6">
+            <h1 className='t_one text-white'>NEWS</h1>
+            <p className='p_one text-white mt-2 mt-lg-4'>
+              Explore the list of global brands that have worked with ReverseAds to improve their ad campaigns at a fraction of the cost of traditional search ads.
+            </p>
 
+            <button className='btn_pink btn_hover1 mt-2 mt-lg-4'>Read More</button>
+
+          </div>
+          <div className='NewsCard_main'>
+            <NewsCard />
+          </div>
         </div>
       </div>
       {/*home_sec_eight end*/}
