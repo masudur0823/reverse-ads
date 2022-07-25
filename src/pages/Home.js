@@ -1,13 +1,13 @@
 import React from 'react'
-import keywordNetworkHome from '../../assets/images/homePage/keyword-network-home.png'
-import keywordDataCloud from '../../assets/images/homePage/keyword-data-cloud.png'
-import videoImg from '../../assets/images/homePage/world-reach-section.mp4'
-import google from '../../assets/images/homePage/google-homescreen.png'
-import aboutHome from '../../assets/images/homePage/about-us-home.png'
-import NewsCard from '../../components/NewsCard/NewsCard'
-import hCardImg1 from '../../assets/images/homePage/AI-Driven-icon.svg'
-import hCardImg2 from '../../assets/images/homePage/Privacy-Compliant-icon.svg'
-import hCardImg3 from '../../assets/images/homePage/Cookie-less-icon.svg'
+import keywordNetworkHome from '../assets/images/homePage/keyword-network-home.png'
+import keywordDataCloud from '../assets/images/homePage/keyword-data-cloud.png'
+import videoImg from '../assets/images/homePage/world-reach-section.mp4'
+import google from '../assets/images/homePage/google-homescreen.png'
+import aboutHome from '../assets/images/homePage/about-us-home.png'
+import NewsCard from '../components/NewsCard/NewsCard'
+import hCardImg1 from '../assets/images/homePage/AI-Driven-icon.svg'
+import hCardImg2 from '../assets/images/homePage/Privacy-Compliant-icon.svg'
+import hCardImg3 from '../assets/images/homePage/Cookie-less-icon.svg'
 
 function Home() {
   return (

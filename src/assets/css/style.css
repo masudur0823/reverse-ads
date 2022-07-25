@@ -248,7 +248,7 @@ footer {
     margin: 0 auto;
 }
 
-.home_sec_second_grid p{
+.home_sec_second_grid p {
     margin: 0;
 }
 
@@ -435,3 +435,54 @@ footer {
 
 /* =========================================================== */
 /* home page area end */
+
+/* Keyword Cohort area start */
+/* =========================================================== */
+.kc_card_one {
+    border-bottom: 1px solid #6600CC;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 0px;
+}
+
+.kc_card_one:last-child {
+    border-bottom: 0px solid #6600CC;
+}
+
+.kc_card_one p {
+    margin: 0;
+}
+
+.kc_card_one div:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kc_card_one_title {
+    font-weight: 600;
+    display: block;
+}
+
+.kc_ul {
+    counter-reset: my-sec-counter;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.kc_ul li{
+    display: flex;
+    margin-top: 40px;
+}
+
+.kc_ul li::before {
+    counter-increment: my-sec-counter;
+    content: counter(my-sec-counter);
+    margin-right: 38px;
+    font-size: 80px;
+    line-height: 62px;
+    font-weight: 900;
+    color: #6600CC;
+}
+/* =========================================================== */
+/* Keyword Cohort area end */

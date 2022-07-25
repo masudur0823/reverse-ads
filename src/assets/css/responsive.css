@@ -33,6 +33,11 @@
     }
 
     /* home page end */
+
+    .kc_ul li::before {
+        font-size: 125px;
+        line-height: 103px;
+    }
 }
 
 @media only screen and (max-width: 1450px) {
@@ -205,7 +210,7 @@
     }
 
     .p_one {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .btn_pink {
@@ -250,7 +255,7 @@
     }
 
     .p_one {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .subscribe_button {
@@ -330,6 +335,24 @@
         width: 98%;
     }
     /* home page end */
+
+    .kc_ul li::before {
+        counter-increment: my-sec-counter;
+        content: counter(my-sec-counter);
+        margin-right: 18px;
+        font-size: 45px;
+        line-height: 33px;
+        font-weight: 900;
+        color: #6600CC;
+    }
+
+    .kc_card_one{
+        grid-template-columns: 1fr;
+    }
+
+    .kc_card_one div:nth-of-type(1){
+        padding: 25px 0px;
+    }
 }
 
 @media only screen and (max-width: 600px) {

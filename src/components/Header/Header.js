@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { NavLink  } from "react-router-dom";
 import logo from '../../assets/images/menu_bar/reverseads-new-logo.svg'
 
 
@@ -22,7 +23,7 @@ function Header() {
         <header>
             <div className='menu_layout'>
                 <div>
-                    <img src={logo} className="logo" alt="" />
+                    <NavLink to="/"><img src={logo} className="logo" alt="" /></NavLink>
                 </div>
                 <div>
                     <ul className='list-unstyled menu_ul mb-0' style={{ left: show }}>
@@ -43,7 +44,7 @@ function Header() {
                             </a>
                             <ul class="dropdown-menu menu_drop">
                                 <li><a href="#!">Keyword DMP</a></li>
-                                <li><a href="#!">Keyword Cohort</a></li>
+                                <li><NavLink to="/keywordcohort">Keyword Cohort</NavLink></li>
                                 <li><a href="#!">BlokID</a></li>
                                 <li><a href="#!">Decentralized Search</a></li>
                             </ul>
