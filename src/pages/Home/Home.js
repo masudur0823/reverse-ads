@@ -5,6 +5,9 @@ import videoImg from '../../assets/images/homePage/world-reach-section.mp4'
 import google from '../../assets/images/homePage/google-homescreen.png'
 import aboutHome from '../../assets/images/homePage/about-us-home.png'
 import NewsCard from '../../components/NewsCard/NewsCard'
+import hCardImg1 from '../../assets/images/homePage/AI-Driven-icon.svg'
+import hCardImg2 from '../../assets/images/homePage/Privacy-Compliant-icon.svg'
+import hCardImg3 from '../../assets/images/homePage/Cookie-less-icon.svg'
 
 function Home() {
   return (
@@ -26,7 +29,7 @@ function Home() {
         </div>
 
         <div className='home_sec_second'>
-          <div>
+          <div className='c_container'>
             <div className='text-center'>
               <h1 className='t_one text-white'>
                 The Only Predictive Roadmap <br />
@@ -37,8 +40,24 @@ function Home() {
                 ReverseAds data mines over 1 million sites across the open internet every hour.
               </p>
               <p className='p_one text-white mt-2 mt-md-4'>
-                Our Keyword Assignment Algorithm analyzes every word, image and video,<br /> and assigns a value  br based on search engagement metrics and IAB Industry<br /> category. Whenever a consumer engages with these keywords, we determine<br /> their intent to purchase a specific product or service, allowing brands to<br /> deliver valuable insight at the ideal moment.
+                Our Keyword Assignment Algorithm analyzes every word, image and video,<br className='d-none d-sm-block' /> and assigns a value  br based on search engagement metrics and IAB Industry<br className='d-none d-sm-block' /> category. Whenever a consumer engages with these keywords, we determine<br className='d-none d-sm-block' /> their intent to purchase a specific product or service, allowing brands to<br className='d-none d-sm-block' /> deliver valuable insight at the ideal moment.
               </p>
+
+              <div className='home_sec_second_grid mt-3 mt-md-5'>
+                <div>
+                  <img src={hCardImg1} alt="" />
+                  <p className='p_one text-white mt-2 mt-md-3'>A.I. Driven</p>
+                </div>
+                <div>
+                  <img src={hCardImg2} alt="" />
+                  <p className='p_one text-white mt-2 mt-md-3'>Privacy Compliant</p>
+                </div>
+                <div>
+                  <img src={hCardImg3} alt="" />
+                  <p className='p_one text-white mt-2 mt-md-3'>Cookie-less</p>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
