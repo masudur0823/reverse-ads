@@ -1,15 +1,15 @@
-.t_one{
+.t_one {
     font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.p_one{
+.p_one {
     font-size: 18px;
 }
 
 
-.image_bg{
+.image_bg {
     min-height: 700px;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,34 +18,40 @@
     background-repeat: no-repeat;
 }
 
-.sec_py{
+.sec_py {
     padding: 60px 0px;
 }
 
 /* color */
-.text_green{
+.text_green {
     color: #00FF66 !important;
 }
 
-.text_purple{
+.text_purple {
     color: #6600CC !important;
 }
+
+.text_pink {
+    color: #FF0099 !important;
+}
+
 /* color */
 
 /* button area start */
-.btn_pink{
+.btn_pink {
     background-color: #FF0099;
     padding: 10px 80px;
     border: 0;
     color: #fff;
     border-radius: 20px;
-    transform: all 0.3s;
+    transition: all 0.1s;
 }
 
-.btn_hover1:hover{
+.btn_hover1:hover {
     outline: 2px solid #fff;
     outline-offset: -2px;
 }
+
 /* button area end*/
 
 

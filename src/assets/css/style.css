@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #333333;
 }
 
-p{
+p {
     color: #333333;
 }
 
@@ -31,6 +31,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 10;
 }
 
 .menu_layout {
@@ -173,17 +174,18 @@ footer {
 }
 
 
-.subscribe_button:hover{
+.subscribe_button:hover {
     color: #fff;
 }
 
-.foot_copyright_text{
+.foot_copyright_text {
     font-size: 13px;
     font-weight: normal;
     text-align: center;
     display: block;
     color: #333333;
 }
+
 /* ------------------------------------------------------------------- */
 /* footer arae end */
 
@@ -191,20 +193,29 @@ footer {
 /* home page area start */
 /* =========================================================== */
 
+
+.google_homescreen {
+    width: 150px;
+    position: fixed;
+    right: 2%;
+    top: 100px;
+}
+
 /* home_sec_two start */
-.home_sec_two{
+.home_sec_two {
     background-image: url(../images/homePage/power_open_bg.png);
 }
+
 /* home_sec_two end */
 
 /* home_sec_three start */
-.home_sec_three{
+.home_sec_three {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1px;
 }
 
-.h_s_three_child{
+.h_s_three_child {
     background: radial-gradient(closest-side at 50% 50%, #FFFFFF 0%, #FFFFFF 18%, #CCCCCC 100%);
     text-align: center;
     display: flex;
@@ -214,23 +225,24 @@ footer {
     transition: all 0.5s;
 }
 
-.h_s_three_child:hover h1{
-    color: #fff;
-}
-.h_s_three_child:hover p{
+.h_s_three_child:hover h1 {
     color: #fff;
 }
 
-.h_s_three_child:hover button{
+.h_s_three_child:hover p {
+    color: #fff;
+}
+
+.h_s_three_child:hover button {
     background-color: #333333;
 }
 
 
-.h_s_three_child1:hover{
+.h_s_three_child1:hover {
     background: radial-gradient(closest-side at 50% 50%, #FFFFFF 0%, #FFFFFF 12%, #FFC3E7 31%, #FF69C3 65%, #FF43B4 87%, #FF0099 100%);
 }
 
-.h_s_three_child2:hover{
+.h_s_three_child2:hover {
     background: radial-gradient(closest-side at 50% 50%, #FFFFFF 0%, #EAF2FF 22%, #0066FF 100%);
 }
 
@@ -241,23 +253,26 @@ footer {
     display: block;
     margin: 0 auto;
 }
+
 /* home_sec_three end */
 
 /* home_sec_four start */
-.home_sec_four{
+.home_sec_four {
     background-image: url(../images/homePage/importance-of-keyword-bg.png);
 }
 
-.h_s_f_subDesc{
+.h_s_f_subDesc {
     font-size: 22px;
 }
+
 /* home_sec_four end */
 
 /* home_sec_five start */
-.home_sec_five{
+.home_sec_five {
     position: relative;
 }
-.home_sec_five video{
+
+.home_sec_five video {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -267,23 +282,24 @@ footer {
     object-fit: cover;
 }
 
-.home_sec_five_table td{
+.home_sec_five_table td {
     font-size: 18px;
 }
 
-.home_sec_five_table td:nth-of-type(2){
+.home_sec_five_table td:nth-of-type(2) {
     padding-left: 20px;
 }
+
 /* home_sec_five end */
 
 /*home_sec_six start*/
-.home_sec_six{
+.home_sec_six {
     background: #EBEBEB;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.home_sec_six_child1{
+.home_sec_six_child1 {
     background-image: url(../images/homePage/account-team.png);
     margin-top: 69px;
     position: relative;
@@ -292,7 +308,7 @@ footer {
     background-repeat: no-repeat;
 }
 
-.home_sec_six_child2{
+.home_sec_six_child2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -310,4 +326,3 @@ footer {
 
 /* =========================================================== */
 /* home page area end */
-

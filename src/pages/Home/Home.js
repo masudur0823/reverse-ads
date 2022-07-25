@@ -2,11 +2,15 @@ import React from 'react'
 import keywordNetworkHome from '../../assets/images/homePage/keyword-network-home.png'
 import keywordDataCloud from '../../assets/images/homePage/keyword-data-cloud.png'
 import videoImg from '../../assets/images/homePage/world-reach-section.mp4'
-import accountteam from '../../assets/images/homePage/account-team.png'
+import google from '../../assets/images/homePage/google-homescreen.png'
+import aboutHome from '../../assets/images/homePage/about-us-home.png'
 
 function Home() {
   return (
     <>
+      {/* google page*/}
+      <img src={google} className="google_homescreen" alt="" />
+      {/* google page*/}
       {/* home_sec_one start*/}
       {/* home_sec_one end*/}
 
@@ -159,7 +163,7 @@ function Home() {
                 </tr>
               </table>
 
-              <button className='btn_pink mt-3 mt-md-4'>Read More</button>
+              <button className='btn_pink btn_hover1 mt-3 mt-md-4'>Read More</button>
 
             </div>
           </div>
@@ -189,7 +193,52 @@ function Home() {
       {/*home_sec_seven start*/}
       <div className="home_sec_seven image_bg">
         <div className="c_container sec_py">
+          <div className="row m-0">
+            <div className="col-lg-6">
+              <h1 className='t_one'>About us</h1>
 
+              <div className="row g-4 mt-0 mt-md-4">
+                <div className="col-md-6">
+                  <div>
+                    <p className='p_one text_pink fw-bold mb-1 mb-md-4'>MISSION</p>
+                    <p>
+                      To restore balance to the advertising industry and create a freer and more open internet through privacy-forward AdTech solutions.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div>
+                    <p className='p_one text_pink fw-bold mb-1 mb-md-4'>CULTURE</p>
+                    <p>
+                      We strive for innovation, equality and diversity of thought, always working toward our collective mission while delivering our clients solutions that outperform all competitors.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div>
+                    <p className='p_one text_pink fw-bold mb-1 mb-md-4'>TEAM</p>
+                    <p>
+                      ReverseAds is a growing team of international advertising, big data and technology professionals. Headquartered in Phuket Thailand, our team works with global leaders across industries to deploy best-in-class advertising campaigns.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div>
+                    <p className='p_one text_pink fw-bold mb-1 mb-md-4'>INVESTORS</p>
+                    <p>
+                      We are backed by some of the world’s most successful and respected business leaders, with a shared vision of a free and open internet for all.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <button className='btn_pink btn_hover1 mt-3 mt-md-4'>Read More</button>
+
+            </div>
+            <div className="col-lg-6">
+              <img src={aboutHome} className="w-100" alt="" />
+            </div>
+          </div>
         </div>
       </div>
       {/*home_sec_seven end*/}

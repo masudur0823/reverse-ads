@@ -282,6 +282,13 @@
         padding-top: 40px;
     }
 
+    .google_homescreen {
+        width: 100px;
+        position: fixed;
+        right: 2%;
+        top: 70px;
+    }
+
 
 
     /* home page end */
@@ -345,6 +352,12 @@
 
     .home_sec_six_child2{
         width: 90%;
+    }
+
+    .google_homescreen {
+        width: 48px;
+        right: 2%;
+        top: 70px;
     }
 
     /* home page area end */
