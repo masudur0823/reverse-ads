@@ -787,32 +787,47 @@ footer {
     grid-gap: 70px;
 }
 
-.team-img{
+.team-img {
     filter: grayscale(1);
     width: 100%;
     transition: all 0.5s;
 }
 
-.team-img:hover{
+.team-img:hover {
     filter: grayscale(0);
 }
 
 
-.team-name{
+.team-name {
     font-size: 16px;
     color: #727272;
     margin-top: 20px;
 }
 
-.team-desc{
+.team-desc {
     font-size: 12px;
     color: #989898;
     margin-top: 10px;
 }
 
-.executives_grid{
-    grid-template-columns: repeat(4,1fr);
+.executives_grid {
+    grid-template-columns: repeat(4, 1fr);
     width: 100%;
+}
+
+.contact_social a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.cs_icon{
+    font-size: 25px;
 }
 
 

@@ -1,11 +1,12 @@
 import React from 'react'
+import { FaFacebookF } from 'react-icons/fa';
 
 function Contact() {
     return (
         <>
             <div className='pt_medium pb-5'>
                 <div className="c_container">
-                    <div className="row m-0 g-3 gt-md-5">
+                    <div className="row m-0 g-3 g-md-5">
                         <div className="col-lg-6">
                             <div>
                                 <h1 className='t_one fw-900'>CONNECT WITH US</h1>
@@ -28,6 +29,14 @@ function Contact() {
                                     <br />
                                     <br />
                                     <span className='fw-bold'>Follow Us</span><br />
+
+                                    <div className='contact_social'>
+                                        <a href="#!"><FaFacebookF className='cs_icon'/></a>
+                                        <a href="#!"><FaFacebookF className='cs_icon'/></a>
+                                        <a href="#!"><FaFacebookF className='cs_icon'/></a>
+                                        <a href="#!"><FaFacebookF className='cs_icon'/></a>
+                                        <a href="#!"><FaFacebookF className='cs_icon'/></a>
+                                    </div>
                                 </p>
                             </div>
                         </div>
