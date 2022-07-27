@@ -28,10 +28,10 @@ function Header() {
                 <div>
                     <ul className='list-unstyled menu_ul mb-0' style={{ left: show }}>
                         <li className='dropdown'>
-                            <a class="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Keyword Network
                             </a>
-                            <ul class="dropdown-menu menu_drop">
+                            <ul className="dropdown-menu menu_drop">
                                 <li><a href="#!">Keyword App</a></li>
                                 <li><a href="#!">Keyword DSP</a></li>
                                 <li><a href="#!">Compete</a></li>
@@ -39,10 +39,10 @@ function Header() {
                             </ul>
                         </li>
                         <li className='dropdown'>
-                            <a class="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Keyword Data Cloud
                             </a>
-                            <ul class="dropdown-menu menu_drop">
+                            <ul className="dropdown-menu menu_drop">
                                 <li><a href="#!">Keyword DMP</a></li>
                                 <li><NavLink to="/keywordcohort">Keyword Cohort</NavLink></li>
                                 <li><a href="#!">BlokID</a></li>
@@ -50,20 +50,20 @@ function Header() {
                             </ul>
                         </li>
                         <li className='dropdown'>
-                            <a class="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Resources
                             </a>
-                            <ul class="dropdown-menu menu_drop">
-                                <li><a href="#!">News</a></li>
+                            <ul className="dropdown-menu menu_drop">
+                                <li><NavLink to="/news">News</NavLink></li>
                                 <li><a href="#!">Proven Result</a></li>
                             </ul>
                         </li>
                         <li className='dropdown'>
-                            <a class="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Company
                             </a>
-                            <ul class="dropdown-menu menu_drop">
-                                <li><a href="#!">We Are ReverseAds</a></li>
+                            <ul className="dropdown-menu menu_drop">
+                                <li><NavLink to="/about">We Are ReverseAds</NavLink></li>
                                 <li><a href="#!">Careers</a></li>
                                 <li><a href="#!">Contact</a></li>
                                 <li><a href="#!">Terms and Conditions</a></li>
@@ -86,10 +86,10 @@ function Header() {
                     <button className='menu_btn_main_button d-none d-lg-block'>Login</button>
                     <button className='menu_btn_main_button d-none d-lg-block'>Sign up</button>
                     <button className='menu_btn_main_button d-none d-lg-block'>Schedule a Demo</button>
-                    <div class={`humberger ${humberger}`} onClick={handleHumberger}>
-                        <div class="line line1" id="line1"></div>
-                        <div class="line line2" id="line2"></div>
-                        <div class="line line3" id="line3"></div>
+                    <div className={`humberger ${humberger}`} onClick={handleHumberger}>
+                        <div className="line line1" id="line1"></div>
+                        <div className="line line2" id="line2"></div>
+                        <div className="line line3" id="line3"></div>
                     </div>
                 </div>
             </div>

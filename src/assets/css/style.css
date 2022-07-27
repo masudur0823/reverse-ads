@@ -102,14 +102,19 @@ header {
     width: 200px;
 }
 
-.menu_drop li {
+.menu_drop li{
+    display: block;
+    margin-right: 0px !important;
+}
+
+.menu_drop a {
     margin-bottom: 5px;
     margin-right: 0px !important;
     display: block;
     padding: 0px 20px;
 }
 
-.menu_drop li:hover {
+.menu_drop a:hover {
     background-color: #80808036;
 }
 
@@ -208,14 +213,12 @@ footer {
     min-height: 100vh;
     display: grid;
     place-items: center;
-    background: linear-gradient(180deg, #00000000 0%, #000000 100%);
 }
 
 .home_sec_second {
     min-height: 100vh;
     display: grid;
     place-items: center;
-    background-color: #000;
 }
 
 .home_sec_one_title {
@@ -228,7 +231,7 @@ footer {
 .home_sec_one {
     position: relative;
     min-height: 200vh;
-
+    background: linear-gradient(180deg, #00000000 0%, #000000 100%);
 }
 
 .home_sec_one video {
@@ -470,7 +473,7 @@ footer {
     padding-left: 0px;
 }
 
-.kc_ul li{
+.kc_ul li {
     display: flex;
     margin-top: 40px;
 }
@@ -484,5 +487,290 @@ footer {
     font-weight: 900;
     color: #6600CC;
 }
+
 /* =========================================================== */
 /* Keyword Cohort area end */
+
+
+/* Google Keyword area start */
+/* =========================================================== */
+.gk_ul li::before {
+    color: #333333 !important;
+}
+
+/* =========================================================== */
+/* Google Keyword area end */
+
+
+/* Credibility area start */
+/* =========================================================== */
+.Credibility_btn {
+    background: #FF0099;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 3px solid #FFFFFF;
+    border-radius: 19px;
+    color: #fff;
+    padding: 15px 30px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.List_pub_btn {
+    background: #333333;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 0;
+    color: #fff;
+    padding: 15px 30px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Credibility_btn_ul {
+    border: 1px solid #707070;
+    padding: 20px 0px;
+    background-color: #EDEDED;
+}
+
+.Credibility_btn_ul a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #333333;
+    font-weight: 600;
+    padding: 10px 20px;
+    display: block;
+    transition: all 0.5s;
+}
+
+.Credibility_btn_ul a:hover {
+    background-color: #fff;
+}
+
+.partnersLogo_grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
+    grid-gap: 49px;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.partnersLogo_grid img {
+    width: 100%;
+}
+
+
+/* =========================================================== */
+/* Credibility area end */
+
+
+/* News area start */
+/* =========================================================== */
+.news_sec_one {
+    background-image: url(../images/news/news-inner-page.png);
+    padding-top: 150px;
+}
+
+.news_sub_title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.newsCard_main {
+    background-color: #F7F7F7;
+}
+
+.news_Card_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.news_Card {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.news_Card_grid h4 {
+    font: normal normal 600 17px Open Sans;
+    letter-spacing: 0px;
+    color: #6600CC;
+}
+
+.news_Card_grid p {
+    font: normal normal normal 15px Open Sans;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+
+.news_Card_grid img {
+    width: 100%;
+}
+
+.newsCard_body {
+    position: relative;
+}
+
+.newsCard_body:hover h4 {
+    visibility: hidden;
+}
+
+.newsCard_body:hover p {
+    visibility: hidden;
+}
+
+.newsCard_body button {
+    display: none;
+}
+
+.newsCard_body:hover button {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* =========================================================== */
+/* News area end */
+
+
+/* News details area start */
+/* =========================================================== */
+.newsDetails {
+    padding-top: 90px;
+}
+
+.NewsDetails_layout {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    grid-gap: 50px;
+}
+
+.nd_cat_ul li {
+    padding: 20px 0px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.nd_cat_ul li:last-child {
+    padding: 20px 0px;
+    border-bottom: 0px solid #DBDBDB;
+}
+
+.nw_recent_post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nw_recent_post img {
+    width: 120px;
+    height: 100%;
+    border: 0.5px solid #707070;
+}
+
+.nw_recent_post .nw_date {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.nw_recent_post {
+    padding: 20px 0px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+
+/* custom checkbox */
+.nd_check_container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.nd_check_container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.nd_check_container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 1px solid #DBDBDB;
+}
+
+.nd_check_container input:checked~.checkmark {
+    background-color: #fff;
+}
+
+.nd_check_container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.nd_check_container input:checked~.checkmark:after {
+    display: block;
+}
+
+.nd_check_container .checkmark:after {
+    left: 2px;
+    top: 2px;
+    width: 13px;
+    height: 13px;
+    background: #FF0099;
+}
+
+/* custom checkbox */
+
+/* =========================================================== */
+/* News details area end */
+
+
+/* News details area start */
+/* =========================================================== */
+.about_sec_one{
+    background-image: url(../images/about/about_bg.png);
+    min-height: 200vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.as_part1{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.as_part2 {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    /* margin: 40px 0px; */
+    margin-top: 40px;
+}
+
+/* =========================================================== */
+/* News details area end */

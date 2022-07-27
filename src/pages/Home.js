@@ -43,7 +43,7 @@ function Home() {
                 Our Keyword Assignment Algorithm analyzes every word, image and video,<br className='d-none d-sm-block' /> and assigns a value  br based on search engagement metrics and IAB Industry<br className='d-none d-sm-block' /> category. Whenever a consumer engages with these keywords, we determine<br className='d-none d-sm-block' /> their intent to purchase a specific product or service, allowing brands to<br className='d-none d-sm-block' /> deliver valuable insight at the ideal moment.
               </p>
 
-              <div className='home_sec_second_grid mt-3 mt-md-5'>
+              <div className='home_sec_second_grid mt-3 mt-md-5 mb-3 mb-md-5 '>
                 <div>
                   <img src={hCardImg1} alt="" />
                   <p className='p_one text-white mt-2 mt-md-3'>A.I. Driven</p>

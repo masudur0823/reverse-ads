@@ -10,7 +10,7 @@ function KeywordCohort() {
           <div className="row m-0 flex-column-reverse flex-lg-row">
 
             <div className="col-lg-6">
-              <h1 className='t_one'>Keyword Cohort</h1>
+              <h1 className='t_one fw-900'>Keyword <br className='d-none d-lg-block' /> Cohort</h1>
               <p className='p_one fw-bold mt-2 mt-md-4'>
                 In this post-cookie world, advertisers need new solutions for privacy-forward audience targeting. The ReverseAds Keyword Cohort connects your advertising with highly targeted consumers based on their unique interests and behaviors.
               </p>
@@ -108,7 +108,7 @@ function KeywordCohort() {
             </div>
 
             <div className="col-lg-6 position-relative text-center text-md-end">
-              <img src={KeywordCohortImg} className="sticky_img mt-0 mt-md-5 w-75" alt="" />
+              <img src={KeywordCohortImg} className="sticky_img " alt="" />
             </div>
 
           </div>

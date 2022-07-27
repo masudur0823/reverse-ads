@@ -9,6 +9,10 @@ import Header from '../components/Header/Header';
 import Home from '../pages/Home';
 import KeywordCohort from '../pages/KeywordCohort';
 import GoogleKeyword from '../pages/GoogleKeyword';
+import Credibility from '../pages/Credibility';
+import News from '../pages/News';
+import NewsDetails from '../pages/NewsDetails';
+import About from '../pages/About';
 
 
 function Router() {
@@ -19,6 +23,10 @@ function Router() {
         <Route path="/" element={<Home />} />
         <Route path="/keywordcohort" element={<KeywordCohort />} />
         <Route path="/googlekeyword" element={<GoogleKeyword />} />
+        <Route path="/credibility" element={<Credibility />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/newsdetails" element={<NewsDetails />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
     </BrowserRouter>
