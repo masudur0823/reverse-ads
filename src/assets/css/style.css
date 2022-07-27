@@ -774,3 +774,15 @@ footer {
 
 /* =========================================================== */
 /* News details area end */
+
+
+/* About area start */
+/* =========================================================== */
+.investor_grid{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+/* =========================================================== */
+/* About area end */

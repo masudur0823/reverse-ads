@@ -1,5 +1,8 @@
 import React from 'react'
 import mike from '../assets/images/about/mike.png'
+import jennifer from '../assets/images/about/jennifer.png'
+import jenniferHover from '../assets/images/about/jennifer-2.png'
+import img2 from '../assets/images/about/bill.png'
 
 function About() {
     return (
@@ -40,7 +43,15 @@ function About() {
             {/* about_section_two start*/}
             {/* team */}
             <div className="sec_py">
-                <p className='p_one fw-bold text-center'>INVESTORS & ADVISORS</p>
+                <div className="c_container">
+                    <p className='p_one fw-bold text-center'>INVESTORS & ADVISORS</p>
+                    <div className='investor_grid'>
+                        <div>
+                            <img src={jennifer} className="w-100 team-img" alt="" />
+                            <img src={jenniferHover} className="w-100" alt="" />
+                        </div>
+                    </div>
+                </div>
             </div>
             {/* team */}
             {/* about_section_two end*/}
