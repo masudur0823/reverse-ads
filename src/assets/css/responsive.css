@@ -58,6 +58,19 @@
     ._pagination li {
         font: normal normal bold 20px Open Sans;
     }
+
+    .team-name {
+        font-size: 20px;
+    }
+
+    .team-desc {
+        font-size: 15px;
+    }
+
+    .investor_grid {
+        grid-gap: 100px;
+    }
+
 }
 
 @media only screen and (max-width: 1450px) {
@@ -291,6 +304,11 @@
         grid-template-columns: 6fr 6fr;
         grid-gap: 20px;
     }
+
+    .investor_grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -514,7 +532,7 @@
         margin-right: 10px;
     }
 
-    .about_sec_one{
+    .about_sec_one {
         background-position: initial;
     }
 
@@ -522,7 +540,7 @@
         grid-template-columns: 1fr;
     }
 
-    .as_part2{
+    .as_part2 {
         margin-top: 0px;
         grid-template-columns: 1fr;
         grid-gap: 20px;
@@ -530,13 +548,27 @@
         padding-bottom: 40px;
     }
 
-    .as_part2 div:nth-of-type(1){
+    .as_part2 div:nth-of-type(1) {
         order: 2;
     }
 
-    .as_part2 div:nth-of-type(2){
+    .as_part2 div:nth-of-type(2) {
         order: 1;
     }
 
+    .team-img {
+        width: 50%;
+    }
+
+    .investor_grid {
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        width: 100%;
+    }
+
+    .contact_one{
+        padding: 20px;
+        border-radius: 10px;
+    }
 
 }

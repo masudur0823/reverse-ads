@@ -32,6 +32,14 @@
     padding: 60px 0px;
 }
 
+.pt_medium{
+    padding-top: 50px;
+}
+
+.pt_big{
+    padding-top: 100px;
+}
+
 .sec_mt-100 {
     margin-top: 100px;
 }
@@ -116,7 +124,7 @@
     font-size: 14px;
 }
 
-.input_style_one::placeholder{
+.input_style_one::placeholder {
     font-size: 14px;
     color: #AAAAAA;
 }
@@ -138,6 +146,16 @@
 
 
 
+
+
+/* contact one area start */
+.contact_one {
+    background: #EDEDED 0% 0% no-repeat padding-box;
+    border-radius: 26px;
+    padding: 40px;
+}
+
+/* contact one area end */
 
 
 

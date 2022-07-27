@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from "react-router-dom";
 import logo from '../../assets/images/foooter_logo.svg'
 import linkedin from '../../assets/images/icons/linkedin-icon.svg'
 import youtube from '../../assets/images/icons/youtube-icon.svg'
@@ -19,8 +20,8 @@ function Footer() {
                 <ul className='list-unstyled foot_ul'>
                   <li><a href="#!">We are ReverseAds</a></li>
                   <li><a href="#!">Careers</a></li>
-                  <li><a href="#!">Contact</a></li>
-                  <li><a href="#!">Terms & Conditions</a></li>
+                  <li><NavLink to="/contact">Contact</NavLink></li>
+                  <li><NavLink to="/termsconditions">Terms & Conditions</NavLink></li>
                   <li><a href="#!">Privacy Policy</a></li>
                 </ul>
               </div>

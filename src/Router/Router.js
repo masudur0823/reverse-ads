@@ -13,6 +13,9 @@ import Credibility from '../pages/Credibility';
 import News from '../pages/News';
 import NewsDetails from '../pages/NewsDetails';
 import About from '../pages/About';
+import TermsConditions from '../pages/TermsConditions';
+import PrivacyPolicy from '../pages/PrivacyPolicy';
+import Contact from '../pages/Contact';
 
 
 function Router() {
@@ -27,6 +30,9 @@ function Router() {
         <Route path="/news" element={<News />} />
         <Route path="/newsdetails" element={<NewsDetails />} />
         <Route path="/about" element={<About />} />
+        <Route path="/termsconditions" element={<TermsConditions />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>

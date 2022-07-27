@@ -65,9 +65,9 @@ function Header() {
                             <ul className="dropdown-menu menu_drop">
                                 <li><NavLink to="/about">We Are ReverseAds</NavLink></li>
                                 <li><a href="#!">Careers</a></li>
-                                <li><a href="#!">Contact</a></li>
-                                <li><a href="#!">Terms and Conditions</a></li>
-                                <li><a href="#!">Privacy Policy</a></li>
+                                <li><NavLink to="/contact">Contact</NavLink></li>
+                                <li><NavLink to="/termsconditions">Terms and Conditions</NavLink></li>
+                                <li><NavLink to="/privacypolicy">Privacy Policy</NavLink></li>
                             </ul>
                         </li>
                         <li className='d-block d-lg-none'>
