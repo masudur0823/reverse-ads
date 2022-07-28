@@ -1,6 +1,7 @@
 import React from 'react'
 import keywordNetworkHome from '../assets/images/homePage/keyword-network-home.png'
 import keywordDataCloud from '../assets/images/homePage/keyword-data-cloud.png'
+import heroVideo from '../assets/images/homePage/hero-video.mp4'
 import videoImg from '../assets/images/homePage/world-reach-section.mp4'
 import google from '../assets/images/homePage/google-homescreen.png'
 import aboutHome from '../assets/images/homePage/about-us-home.png'
@@ -19,7 +20,7 @@ function Home() {
       <div className="home_sec_one image_bg">
         <video loop autoPlay muted>
           <source
-            src={videoImg}
+            src={heroVideo}
             type="video/mp4"
           />
           Your browser does not support the video tag.
