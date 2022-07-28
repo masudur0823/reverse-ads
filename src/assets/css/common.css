@@ -32,11 +32,11 @@
     padding: 60px 0px;
 }
 
-.pt_medium{
+.pt_medium {
     padding-top: 50px;
 }
 
-.pt_big{
+.pt_big {
     padding-top: 100px;
 }
 
@@ -66,6 +66,14 @@
     color: #00FF66 !important;
 }
 
+.text_orange {
+    color: #FF6700 !important;
+}
+
+.text_yellow {
+    color: #FFBC00 !important;
+}
+
 .text_purple {
     color: #6600CC !important;
 }
@@ -80,6 +88,22 @@
 
 .text_blue {
     color: #0066FF !important;
+}
+
+.bg_green{
+    background-color: #00FF66 !important;
+}
+
+.bg_orange{
+    background-color: #FF6700 !important;
+}
+
+.bg_yellow{
+    background-color: #FFBC00 !important;
+}
+
+.bg_pink{
+    background-color: #FF0099 !important;
 }
 
 /* color */

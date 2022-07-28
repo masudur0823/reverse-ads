@@ -16,6 +16,7 @@ import About from '../pages/About';
 import TermsConditions from '../pages/TermsConditions';
 import PrivacyPolicy from '../pages/PrivacyPolicy';
 import Contact from '../pages/Contact';
+import KeywordNetwork from '../pages/KeywordNetwork';
 
 
 function Router() {
@@ -33,6 +34,7 @@ function Router() {
         <Route path="/termsconditions" element={<TermsConditions />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/keywordnetwork" element={<KeywordNetwork />} />
       </Routes>
       <Footer />
     </BrowserRouter>

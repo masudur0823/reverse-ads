@@ -31,7 +31,7 @@ function Footer() {
                 <h5 className='foot_title'>Keyword Network</h5>
                 <div className='foot_horizontal_line'></div>
                 <ul className='list-unstyled foot_ul'>
-                  <li><a href="#!">Keyword App</a></li>
+                  <li><NavLink to="/keywordnetwork">Keyword App</NavLink></li>
                   <li><a href="#!">Keyword DSP</a></li>
                   <li><a href="#!">ReverseAds Compete</a></li>
                   <li><a href="#!">Cost Per Action</a></li>

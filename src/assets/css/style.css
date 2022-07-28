@@ -815,7 +815,12 @@ footer {
     width: 100%;
 }
 
-.contact_social a{
+.contact_social {
+    display: flex;
+    gap: 20px;
+}
+
+.contact_social a {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -826,10 +831,240 @@ footer {
     color: #fff;
 }
 
-.cs_icon{
+.cs_icon {
     font-size: 25px;
 }
 
 
 /* =========================================================== */
 /* About area end */
+
+
+/* Keyword App area start */
+/* =========================================================== */
+.kn_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.kn_child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+    cursor: pointer;
+}
+
+.kn_icon_con {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+.kn_icon_con img {
+    width: 100%;
+}
+
+.kn_normal .kn_icon_con {
+    background: #DBDBDB;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.kn_normal {
+    background: #fff;
+    position: relative;
+}
+
+
+.kn_app_border::after {
+    content: '';
+    height: 80%;
+    width: 1px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #DBDBDB;
+}
+
+
+.kn_dsp_border::after {
+    content: '';
+    height: 80%;
+    width: 1px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #DBDBDB;
+}
+
+.kn_normal p {
+    font-weight: 400;
+}
+
+.kn_active {
+    border-radius: 30px 30px 0px 0px;
+}
+
+.kn_active p {
+    font-weight: bold;
+}
+
+.kn_active .kn_icon_con {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.kn_active_app {
+    background: linear-gradient(180deg, #FCE8F400 0%, #FCE8F4 100%);
+}
+
+.kn_active_app .kn_icon_con {
+    background: #F81095;
+}
+
+.kn_active_dsp .kn_icon_con {
+    background: #FF6700;
+}
+
+.kn_active_dsp {
+    background: linear-gradient(180deg, #FEEDDF00 0%, #FEEDDF 100%);
+}
+
+.kn_active_com {
+    background: linear-gradient(180deg, #FFF8E200 0%, #FFF8E2 100%);
+}
+
+.kn_active_com .kn_icon_con {
+    background: #FFBC00;
+}
+
+.kn_active_cos {
+    background: linear-gradient(180deg, #EDFFF400 0%, #EDFFF4 100%);
+}
+
+
+.kn_active_cos .kn_icon_con {
+    background: #00FF66;
+}
+
+.kn_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.kn_body {
+    padding: 50px;
+}
+
+.kn_body_app {
+    background-color: #FCE8F4;
+    border-radius: 0px 30px 30px 30px;
+}
+
+.kn_body_dsp {
+    background-color: #FFEEE2;
+    border-radius: 30px;
+}
+
+.kn_body_com {
+    background-color: #FFF8E2;
+    border-radius: 30px;
+}
+
+.kn_body_cos {
+    background-color: #EDFFF4;
+    border-radius: 30px 0px 30px 30px;
+}
+
+.kn_grid_child2 {
+    position: relative;
+}
+
+.kn_grid_child2 video {
+    width: 100%;
+    height: 520px;
+    position: sticky;
+    top: 0;
+    object-fit: cover;
+}
+
+.kn_grid_child1 {
+    height: 600px;
+    overflow-y: scroll;
+}
+
+/* width */
+.kn_grid_child1::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.kn_grid_child1::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+.kn_grid_child1::-webkit-scrollbar-thumb {
+    background: #3333334f;
+    border-radius: 16px;
+    opacity: 0.05;
+}
+
+/* Handle on hover */
+.kn_grid_child1::-webkit-scrollbar-thumb:hover {
+    background: #33333365;
+}
+
+.download_main {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #00000029;
+    border-radius: 36px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    width: 70%;
+    /* margin: 0 auto; */
+}
+
+.download_main div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.download_main h1 {
+    font-size: 28px;
+    display: inline;
+}
+
+.download_main p {
+    font-size: 13px;
+}
+
+.kn_dsp_ul li::before {
+    color: #FF6700;
+}
+
+.kn_rac_ul li::before {
+    color: #FFBC00;
+}
+
+.kn_cpa_ul li::before {
+    color: #00FD66;
+}
+
+/* =========================================================== */
+/* Keyword App area end */

@@ -30,7 +30,7 @@ function Contact() {
                                     <br />
                                     <span className='fw-bold'>Follow Us</span><br />
 
-                                    <div className='contact_social'>
+                                    <div className='contact_social mt-4'>
                                         <a href="#!"><FaFacebookF className='cs_icon'/></a>
                                         <a href="#!"><FaFacebookF className='cs_icon'/></a>
                                         <a href="#!"><FaFacebookF className='cs_icon'/></a>
