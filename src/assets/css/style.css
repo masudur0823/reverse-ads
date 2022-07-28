@@ -1126,5 +1126,17 @@ footer {
 .kn_dmp_ul li:before{
     color: #084F60;
 }
+
+.kn_dec_ul li:before{
+    color: #0066FF;
+}
+
+.kn_blockId_ul li::before{
+    color: #661CCC;
+}
+
+.kn_coh_ul li::before{
+    color: #00DDE8;
+}
 /* =========================================================== */
 /* Keyword data cloud area end */

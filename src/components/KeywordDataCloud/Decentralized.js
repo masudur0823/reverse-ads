@@ -8,33 +8,34 @@ function Decentralized(props) {
     <>
       <div className='kn_grid'>
         <div className='kn_grid_child1'>
-          <p className='p_two fw-bold'>Maximize your advertising reach with access to
-            1<sup>st</sup> party data and expansive ad networks
+          <p className='p_two fw-bold'>A privacy-first advertising solution built for the
+            decentralized and cookie-less future of the
+            open internet.
           </p>
           <p className='p_two'>
-            We account for all significant factors that contribute to creating a comprehensive network of relevant DSP, SSP, publisher websites and more.
+            Tap into the open internet with a new kind of advertising campaign.
           </p>
 
           <p className='p_two fw-bold'>
-            Why the Keyword DMP?
+            Why Decentralized Search?
           </p>
 
           <p className='p_two'>
-            With 20 years of relationship building, The Keyword Network has created a unique reach which connects premium publishers, mobile apps, direct advertisers, and 50+ DSPs, providing brand-safe premium traffic across 190 countries worldwide. <br /> <br />
+            Instead of serving ads, deliver personalized product and service options based on keyword usage, geolocation, and interests. <br /><br />
 
-            Includes over 500 ad networks, ad exchanges, demand-side platforms (DSP), supply-side platforms (SSP), and direct publisher relationships with the largest online brands in the world. All networks providing a 80% or greater match back rate to ReverseAds PII onboarded data are selected for maximum scalable impressions, clicks and conversions.
+            Use AI to pinpoint where most internet users spend their time actively researching products or services aligned with your offerings. As soon as a consumer makes their choice, they are directed to the business’s landing page to engage and convert.<br /><br />
+
+            This transforms ads from a nuisance that consumers avoid to a source of knowledge that consumers desire.
           </p>
 
           <p className='p_two fw-bold'>
             How it works
           </p>
 
-          <ul className='kc_ul kn_dmp_ul'>
-            <li className='p_one'>API interfaces with theTradeDesk, Xandr, DV360 and other leading buying desks.</li>
-            <li className='p_one'>Using first party data and expansive ad networks.</li>
-            <li className='p_one'>Customized campaign with diverse ad channels and ad formats.</li>
-            <li className='p_one'>Connect with over 1 billion open web users worldwide.</li>
-            <li className='p_one'>Engage with your target audience online across their smartphones and the open web.</li>
+          <ul className='kc_ul kn_dec_ul'>
+            <li className='p_one'>Map the Open Internet based on engagement with keywords.</li>
+            <li className='p_one'>Use predictive A.I. to identify sites that are common decision points, where consumers look for information on purchase options.</li>
+            <li className='p_one'>Place hyper specific decision engines that assist consumers with their choices on specific products and services.</li>
           </ul>
 
         </div>

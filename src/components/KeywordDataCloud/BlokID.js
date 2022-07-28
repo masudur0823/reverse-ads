@@ -8,28 +8,28 @@ function BlokID(props) {
     <>
       <div className='kn_grid'>
         <div className='kn_grid_child1'>
-          <p className='p_two fw-bold'>Maximize your advertising reach with access to
-            1<sup>st</sup> party data and expansive ad networks
+          <p className='p_two fw-bold'>An Attribution & Analytics Platform Built for
+            Data-Driven Marketers.
           </p>
           <p className='p_two'>
-            We account for all significant factors that contribute to creating a comprehensive network of relevant DSP, SSP, publisher websites and more.
+            BlokID is a blockchain-powered marketing attribution platform designed to alleviate the non-legally binding privacy restrictions of the post-cookie and privacy-centric world. Now, users will be rewarded with cryptocurrency for the sharing of their data, using a solution that guarantees user privacy.
           </p>
 
           <p className='p_two fw-bold'>
-            Why the Keyword DMP?
+            Why the Blok ID?
           </p>
 
           <p className='p_two'>
-            With 20 years of relationship building, The Keyword Network has created a unique reach which connects premium publishers, mobile apps, direct advertisers, and 50+ DSPs, providing brand-safe premium traffic across 190 countries worldwide. <br /> <br />
+            As third-party cookies are going away, marketers need new solutions for secure attribution that maintain 100% privacy for users. By utilizing blockchain technology and smart contracts, BloKID replaces the third-party cookie with BlokID tokens. These tokens collect important information on user engagement and behavior to enable precise tracking of touchpoints, with transparent and immutable data sharing without the risk of fraud. <br /><br />
 
-            Includes over 500 ad networks, ad exchanges, demand-side platforms (DSP), supply-side platforms (SSP), and direct publisher relationships with the largest online brands in the world. All networks providing a 80% or greater match back rate to ReverseAds PII onboarded data are selected for maximum scalable impressions, clicks and conversions.
+            BlokID respects international privacy laws and regulations such as GDPR, CCPA, and others that impact ad networks, publishers and advertisers.
           </p>
 
           <p className='p_two fw-bold'>
             How it works
           </p>
 
-          <ul className='kc_ul kn_dmp_ul'>
+          <ul className='kc_ul kn_blockId_ul'>
             <li className='p_one'>API interfaces with theTradeDesk, Xandr, DV360 and other leading buying desks.</li>
             <li className='p_one'>Using first party data and expansive ad networks.</li>
             <li className='p_one'>Customized campaign with diverse ad channels and ad formats.</li>
