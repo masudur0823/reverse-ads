@@ -284,6 +284,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1px;
+    background: #fff;
 }
 
 .h_s_three_child {
