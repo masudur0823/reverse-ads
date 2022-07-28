@@ -59,7 +59,7 @@ function KeywordNetwork() {
             {/* section2 */}
             <div className="c_container">
                 <div className='sec_py'>
-                    <h4 className='t_two text-center'>Our Solutions</h4>
+                    <h4 className='t_two text-center mb-4 mb-md-5'>Our Solutions</h4>
                     {/* className='kn_child kn_normal' */}
                     <div className='kn_div'>
                         <div

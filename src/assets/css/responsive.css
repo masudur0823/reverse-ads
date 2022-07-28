@@ -473,6 +473,10 @@
     .kn_grid_child2{
         order: 1;
     }
+
+    .download_main{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -625,11 +629,22 @@
 
     .kn_grid_child2 video {
         width: 100%;
-        height: 160px;
+        height: 200px;
         position: sticky;
         top: 0;
         object-fit: cover;
     }
-    
+
+    .kn_child{
+        padding: 20px 0px;
+    }
+
+    .kn_body {
+        padding: 15px;
+    }
+    .download_main h1 {
+        font-size: 17px;
+        display: inline;
+    }
 
 }
