@@ -855,6 +855,10 @@ footer {
     cursor: pointer;
 }
 
+.kn_child p{
+    text-align: center;
+}
+
 .kn_icon_con {
     width: 100px;
     height: 100px;
@@ -1005,7 +1009,7 @@ footer {
 
 /* width */
 .kn_grid_child1::-webkit-scrollbar {
-    width: 10px;
+    width: 6px;
 }
 
 /* Track */
@@ -1015,7 +1019,7 @@ footer {
 
 /* Handle */
 .kn_grid_child1::-webkit-scrollbar-thumb {
-    background: #3333334f;
+    background: #33333321;
     border-radius: 16px;
     opacity: 0.05;
 }
@@ -1068,3 +1072,59 @@ footer {
 
 /* =========================================================== */
 /* Keyword App area end */
+
+/* Keyword data cloud area start */
+/* =========================================================== */
+.kn_active_dmp {
+    background: linear-gradient(180deg, #F0FCFF00 0%, #F0FCFF 100%);
+}
+
+.kn_active_dmp .kn_icon_con {
+    background: #084F60;
+}
+
+.kn_active_cohort .kn_icon_con {
+    background: #00DDE8;
+}
+
+.kn_active_cohort {
+    background: linear-gradient(180deg, #E5FEFF00 0%, #E5FEFF 100%);
+}
+
+.kn_active_block {
+    background: transparent linear-gradient(180deg, #F8F2FF00 0%, #F8F2FF 100%) 0% 0% no-repeat padding-box;
+}
+
+.kn_active_block .kn_icon_con {
+    background: #661CCC;
+}
+
+.kn_active_Decentralized {
+    background: transparent linear-gradient(180deg, #E6F0FF00 0%, #E6F0FF 100%) 0% 0% no-repeat padding-box;
+}
+
+
+.kn_active_Decentralized .kn_icon_con {
+    background: #0066FF;
+}
+
+.kn_body_dmp{
+    background: #F0FCFF;
+}
+
+.kn_body_coh{
+    background: #E5FEFF;
+}
+
+.kn_body_blockId{
+    background: #F8F2FF;
+}
+
+.kn_body_dec{
+    background: #E6F0FF;
+}
+.kn_dmp_ul li:before{
+    color: #084F60;
+}
+/* =========================================================== */
+/* Keyword data cloud area end */

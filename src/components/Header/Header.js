@@ -43,7 +43,7 @@ function Header() {
                                 Keyword Data Cloud
                             </a>
                             <ul className="dropdown-menu menu_drop">
-                                <li><a href="#!">Keyword DMP</a></li>
+                                <li><NavLink to="/keyworddatacloud">Keyword DMP</NavLink></li>
                                 <li><NavLink to="/keywordcohort">Keyword Cohort</NavLink></li>
                                 <li><a href="#!">BlokID</a></li>
                                 <li><a href="#!">Decentralized Search</a></li>
