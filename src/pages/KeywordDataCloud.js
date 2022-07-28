@@ -33,6 +33,10 @@ function KeywordDataCloud() {
       setBtnBg('#0066FF')
     }
   }
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       {/* section1 */}

@@ -10,24 +10,27 @@ import ReverseAdsCompete from '../components/KeywordNetwork/ReverseAdsCompete'
 import CostPerAction from '../components/KeywordNetwork/CostPerAction'
 function KeywordNetwork() {
     const [toggleState, setToggleState] = useState(1);
-    const [btnBg, setBtnBg] = useState('bg_pink')
+    const [btnBg, setBtnBg] = useState('bg_pink');
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const toggleTab = (index) => {
         setToggleState(index);
 
-        if (index===1) {
+        if (index === 1) {
             setBtnBg('bg_pink')
         }
 
-        if (index===2) {
+        if (index === 2) {
             setBtnBg('bg_orange')
         }
 
-        if (index===3) {
+        if (index === 3) {
             setBtnBg('bg_yellow')
         }
 
-        if (index===4) {
+        if (index === 4) {
             setBtnBg('bg_green')
         }
     }

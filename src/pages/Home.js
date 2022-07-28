@@ -9,6 +9,7 @@ import NewsCard from '../components/NewsCard/NewsCard'
 import hCardImg1 from '../assets/images/homePage/AI-Driven-icon.svg'
 import hCardImg2 from '../assets/images/homePage/Privacy-Compliant-icon.svg'
 import hCardImg3 from '../assets/images/homePage/Cookie-less-icon.svg'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -98,7 +99,7 @@ function Home() {
               Open Internet Advertising
             </p>
             <img src={keywordNetworkHome} className="h_s_t_img mt-3" alt="" />
-            <button className='btn_pink mt-3 mt-md-4'>Read More</button>
+            <Link to="/keywordnetwork"><button className='btn_pink mt-3 mt-md-4'>Read More</button></Link>
           </div>
         </div>
         <div className='h_s_three_child h_s_three_child2'>
@@ -111,7 +112,7 @@ function Home() {
               Access the largest keyword data <br /> resource in the world
             </p>
             <img src={keywordDataCloud} className="h_s_t_img mt-3" alt="" />
-            <button className='btn_pink mt-3 mt-md-4'>Read More</button>
+            <Link to='/keyworddatacloud'><button className='btn_pink mt-3 mt-md-4'>Read More</button></Link>
           </div>
         </div>
       </div>
@@ -303,7 +304,7 @@ function Home() {
               Explore the list of global brands that have worked with ReverseAds to improve their ad campaigns at a fraction of the cost of traditional search ads.
             </p>
 
-            <button className='btn_pink btn_hover1 mt-2 mt-lg-4'>Read More</button>
+            <Link to="/news"><button className='btn_pink btn_hover1 mt-2 mt-lg-4'>Read More</button></Link>
 
           </div>
           <div className='NewsCard_main'>

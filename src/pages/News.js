@@ -1,8 +1,11 @@
 import React from 'react'
 import cardImg1 from '../assets/images/news/Neuromarketing-Advertising-Strategies.jpg'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function News() {
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             {/* News section1 start */}
@@ -18,7 +21,9 @@ function News() {
                             The real-time mindset of a customer dramatically influences their decisions. The content they engage with, the content they share, and the purchases they make always align with their current state of mind.
                         </p>
 
-                        <button className='btn_pink btn_hover2 mt-3 mt-md-4'>Read More</button>
+                        <a href="https://reverseads.com/blog/your-customers-mindset-is-the-key-to-summer-sales/" target='_blank' rel="noreferrer">
+                            <button className='btn_pink btn_hover2 mt-3 mt-md-4'>Read More</button>
+                        </a>
 
                     </div>
                 </div>
@@ -53,7 +58,7 @@ function News() {
                                 </p>
 
                                 <div>
-                                     <Link to="/newsdetails"><button className='btn_purple'>Read More</button></Link>
+                                    <Link to="/newsdetails"><button className='btn_purple'>Read More</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +72,7 @@ function News() {
                                 </p>
 
                                 <div>
-                                     <Link to="/newsdetails"><button className='btn_purple'>Read More</button></Link>
+                                    <Link to="/newsdetails"><button className='btn_purple'>Read More</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +86,7 @@ function News() {
                                 </p>
 
                                 <div>
-                                     <Link to="/newsdetails"><button className='btn_purple'>Read More</button></Link>
+                                    <Link to="/newsdetails"><button className='btn_purple'>Read More</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +100,7 @@ function News() {
                                 </p>
 
                                 <div>
-                                     <Link to="/newsdetails"><button className='btn_purple'>Read More</button></Link>
+                                    <Link to="/newsdetails"><button className='btn_purple'>Read More</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -109,7 +114,7 @@ function News() {
                                 </p>
 
                                 <div>
-                                     <Link to="/newsdetails"><button className='btn_purple'>Read More</button></Link>
+                                    <Link to="/newsdetails"><button className='btn_purple'>Read More</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -123,7 +128,7 @@ function News() {
                                 </p>
 
                                 <div>
-                                     <Link to="/newsdetails"><button className='btn_purple'>Read More</button></Link>
+                                    <Link to="/newsdetails"><button className='btn_purple'>Read More</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +142,7 @@ function News() {
                                 </p>
 
                                 <div>
-                                     <Link to="/newsdetails"><button className='btn_purple'>Read More</button></Link>
+                                    <Link to="/newsdetails"><button className='btn_purple'>Read More</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -151,7 +156,7 @@ function News() {
                                 </p>
 
                                 <div>
-                                     <Link to="/newsdetails"><button className='btn_purple'>Read More</button></Link>
+                                    <Link to="/newsdetails"><button className='btn_purple'>Read More</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -167,7 +172,7 @@ function News() {
                             <li>3</li>
                             <li>...</li>
                             <li>10</li>
-                            <li className='me-0'> &#62; Next</li>
+                            <li className='me-0'> Next &#62;</li>
                         </ul>
                     </div>
                     {/* pagination end */}
