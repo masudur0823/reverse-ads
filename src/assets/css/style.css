@@ -5,6 +5,7 @@
     padding: 0;
     outline: 0;
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -361,6 +362,20 @@ footer {
 .home_sec_five_table td:nth-of-type(2) {
     padding-left: 20px;
 }
+
+.home_sec_five_table_1{
+    display: block;
+}
+
+.home_sec_five_table_2{
+    display: none;
+}
+
+
+.home_sec_five_table_1:hover .home_sec_five_table_2{
+    display: block;
+}
+
 
 /* home_sec_five end */
 

@@ -8,6 +8,9 @@ import p_logo4 from '../assets/images/Credibility/logo4.png'
 import p_logo5 from '../assets/images/Credibility/logo5.png'
 
 function Credibility() {
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <div className='sec_mt-100'>

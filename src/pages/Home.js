@@ -153,69 +153,111 @@ function Home() {
               <p className='p_one text-white mt-2 mt-md-4'>
                 We have harnessed the power of the open web and created an ever-reaching ecosystem with our clients, partners and networks, to bring scale and reach like no other Ad product.
               </p>
-              <table className='home_sec_five_table text-white mt-2 mt-md-4'>
-                <tr>
-                  <td className='text_green fw-bold'>Total stats of all clients </td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Impressions:  </td>
-                  <td>1,596,079,945</td>
-                </tr>
-                <tr>
-                  <td>Clicks:  </td>
-                  <td>5,968,638</td>
-                </tr>
-                <tr>
-                  <td>Visitors more than 22 seconds:  </td>
-                  <td>68,461</td>
-                </tr>
-                <tr>
-                  <td>Conversions:  </td>
-                  <td>5,388</td>
-                </tr>
-                <tr>
-                  <td>CTR:  </td>
-                  <td>0.37</td>
-                </tr>
-              </table>
 
-              <table className='home_sec_five_table text-white mt-2 mt-md-4'>
-                <tr>
-                  <td className='text_green fw-bold'>Stats for </td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Total number of partners:  </td>
-                  <td>100</td>
-                </tr>
-                <tr>
-                  <td>Total number of DSPs:  </td>
-                  <td>100</td>
-                </tr>
-                <tr>
-                  <td>Total number of clients:  </td>
-                  <td>100</td>
-                </tr>
-                <tr>
-                  <td>Total number of publishers:  </td>
-                  <td>100</td>
-                </tr>
-                <tr>
-                  <td>Total number of campaigns:  </td>
-                  <td>100</td>
-                </tr>
-                <tr>
-                  <td>Total number of countries:   </td>
-                  <td>100</td>
-                </tr>
-                <tr>
-                  <td>Total number of languages:    </td>
-                  <td>100</td>
-                </tr>
-              </table>
+              <div className='home_sec_five_table_1'>
+                <table className='home_sec_five_table text-white mt-2 mt-md-4'>
+                  <tr>
+                    <td className='text_green fw-bold'>Total stats of all clients </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Impressions:  </td>
+                    <td>1,596,079,945</td>
+                  </tr>
+                  <tr>
+                    <td>Clicks:  </td>
+                    <td>5,968,638</td>
+                  </tr>
+                  <tr>
+                    <td>Visitors more than 22 seconds:  </td>
+                    <td>68,461</td>
+                  </tr>
+                  <tr>
+                    <td>Conversions:  </td>
+                    <td>5,388</td>
+                  </tr>
+                  <tr>
+                    <td>CTR:  </td>
+                    <td>0.37</td>
+                  </tr>
+                </table>
 
-              <button className='btn_pink btn_hover1 mt-3 mt-md-4'>Read More</button>
+                <table className='home_sec_five_table text-white mt-2 mt-md-4'>
+                  <tr>
+                    <td className='text_green fw-bold'>Stats for </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Total number of partners:  </td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td>Total number of DSPs:  </td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td>Total number of clients:  </td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td>Total number of publishers:  </td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td>Total number of campaigns:  </td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td>Total number of countries:   </td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td>Total number of languages:    </td>
+                    <td>100</td>
+                  </tr>
+                </table>
+              </div>
+
+              <div className='home_sec_five_table_2'>
+                <table className='home_sec_five_table text-white mt-2 mt-md-4'>
+                  <tr>
+                    <td className='text_green fw-bold'>Stats for </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Total number of partners:  </td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td>Total number of DSPs:  </td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td>Total number of clients:  </td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td>Total number of publishers:  </td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td>Total number of campaigns:  </td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td>Total number of countries:   </td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td>Total number of languages:    </td>
+                    <td>100</td>
+                  </tr>
+                </table>
+              </div>
+
+              <Link to="/credibility">
+                <button className='btn_pink btn_hover1 mt-3 mt-md-4'>Read More</button>
+              </Link>
 
             </div>
           </div>

@@ -18,6 +18,7 @@ import PrivacyPolicy from '../pages/PrivacyPolicy';
 import Contact from '../pages/Contact';
 import KeywordNetwork from '../pages/KeywordNetwork';
 import KeywordDataCloud from '../pages/KeywordDataCloud';
+import KeywordNetwork2 from '../pages/KeywordNetwork2';
 
 
 function Router() {
@@ -36,6 +37,7 @@ function Router() {
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/keywordnetwork" element={<KeywordNetwork />} />
+        <Route path="/keywordnetwork2" element={<KeywordNetwork2 />} />
         <Route path="/keyworddatacloud" element={<KeywordDataCloud />} />
       </Routes>
       <Footer />
