@@ -96,6 +96,10 @@
         font-size: 13px;
     }
 
+    .menu_drop {
+        margin-top: 20px;
+    }
+
     .menu_btn_main {
         gap: 10px;
     }
@@ -170,6 +174,14 @@
     .menu_ul li {
         margin-bottom: 15px;
         padding-left: 20px;
+    }
+
+    .menu_drop{
+        margin-top: 4px;
+    }
+
+    .menu_drop li {
+        padding-left: 0px;
     }
 
     /* humberger start */
@@ -454,27 +466,28 @@
         height: 80px;
     }
 
-    .kn_icon_con img{
+    .kn_icon_con img {
         width: 100%;
     }
 
-    .kn_p{
+    .kn_p {
         text-align: center;
     }
 
-    .kn_grid{
+    .kn_grid {
         grid-template-columns: 1fr;
     }
 
-    .kn_grid_child1{
+    .kn_grid_child1 {
         order: 2;
+        height: auto;
     }
 
-    .kn_grid_child2{
+    .kn_grid_child2 {
         order: 1;
     }
 
-    .download_main{
+    .download_main {
         width: 100%;
     }
 }
@@ -635,13 +648,14 @@
         object-fit: cover;
     }
 
-    .kn_child{
+    .kn_child {
         padding: 20px 0px;
     }
 
     .kn_body {
         padding: 15px;
     }
+
     .download_main h1 {
         font-size: 17px;
         display: inline;

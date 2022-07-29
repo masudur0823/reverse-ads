@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { NavLink  } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from '../../assets/images/menu_bar/reverseads-new-logo.svg'
 
 
@@ -27,42 +27,42 @@ function Header() {
                 </div>
                 <div>
                     <ul className='list-unstyled menu_ul mb-0' style={{ left: show }}>
-                        <li className='dropdown'>
-                            <a className="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li className='h_dropdown'>
+                            <NavLink to="/keywordnetwork" className='drop_btn'>
                                 Keyword Network
-                            </a>
-                            <ul className="dropdown-menu menu_drop">
-                                <li><NavLink to="/keywordnetwork">Keyword App</NavLink></li>
+                            </NavLink>
+                            <ul className="menu_drop">
+                                <li><a href="/keywordnetwork#app:~:text=Our%20Solutions-,Keyword%20App">Keyword App</a></li>
                                 <li><a href="#!">Keyword DSP</a></li>
                                 <li><a href="#!">Compete</a></li>
                                 <li><a href="#!">Cost Per Action</a></li>
                             </ul>
                         </li>
-                        <li className='dropdown'>
-                            <a className="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li className='h_dropdown'>
+                            <NavLink to="/keyworddatacloud" className='drop_btn'>
                                 Keyword Data Cloud
-                            </a>
-                            <ul className="dropdown-menu menu_drop">
+                            </NavLink>
+                            <ul className="menu_drop">
                                 <li><NavLink to="/keyworddatacloud">Keyword DMP</NavLink></li>
                                 <li><NavLink to="/keywordcohort">Keyword Cohort</NavLink></li>
                                 <li><a href="#!">BlokID</a></li>
                                 <li><a href="#!">Decentralized Search</a></li>
                             </ul>
                         </li>
-                        <li className='dropdown'>
-                            <a className="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li className='h_dropdown'>
+                            <a className='drop_btn' href="#!">
                                 Resources
                             </a>
-                            <ul className="dropdown-menu menu_drop">
+                            <ul className="menu_drop">
                                 <li><NavLink to="/news">News</NavLink></li>
-                                <li><a href="#!">Proven Result</a></li>
+                                <li><NavLink to="/credibility">Proven Result</NavLink></li>
                             </ul>
                         </li>
-                        <li className='dropdown'>
-                            <a className="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li className='h_dropdown'>
+                            <a className="drop_btn" href="#!">
                                 Company
                             </a>
-                            <ul className="dropdown-menu menu_drop">
+                            <ul className="menu_drop">
                                 <li><NavLink to="/about">We Are ReverseAds</NavLink></li>
                                 <li><a href="#!">Careers</a></li>
                                 <li><NavLink to="/contact">Contact</NavLink></li>

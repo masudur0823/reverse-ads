@@ -1,6 +1,12 @@
 import React from 'react'
 import TermsImg from '../assets/images/terms-inner-page.png'
 function TermsConditions() {
+
+
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+}, []);
   return (
     <>
       <div className='sec_mt-100'>

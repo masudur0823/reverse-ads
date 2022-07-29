@@ -1,7 +1,13 @@
 import React from 'react'
-import { FaFacebookF } from 'react-icons/fa';
+import { FaFacebookF, FaYoutube, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import { BsInstagram } from 'react-icons/bs';
 
 function Contact() {
+
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <div className='pt_medium pb-5'>
@@ -32,10 +38,10 @@ function Contact() {
 
                                     <div className='contact_social mt-4'>
                                         <a href="#!"><FaFacebookF className='cs_icon'/></a>
-                                        <a href="#!"><FaFacebookF className='cs_icon'/></a>
-                                        <a href="#!"><FaFacebookF className='cs_icon'/></a>
-                                        <a href="#!"><FaFacebookF className='cs_icon'/></a>
-                                        <a href="#!"><FaFacebookF className='cs_icon'/></a>
+                                        <a href="#!"><BsInstagram className='cs_icon'/></a>
+                                        <a href="#!"><FaYoutube className='cs_icon'/></a>
+                                        <a href="#!"><FaLinkedinIn className='cs_icon'/></a>
+                                        <a href="#!"><FaTwitter className='cs_icon'/></a>
                                     </div>
                                 </p>
                             </div>

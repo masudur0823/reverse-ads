@@ -1,7 +1,12 @@
 import React from 'react'
-import privacyImg from '../assets/images/terms-inner-page.png'
+import privacyImg from '../assets/images/privacy-inner-page.png'
 
 function PrivacyPolicy() {
+
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <div className='sec_mt-100'>

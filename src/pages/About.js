@@ -8,6 +8,11 @@ import nusli from '../assets/images/about/nusli-2.png'
 import shawn from '../assets/images/about/shawn-2.png'
 
 function About() {
+
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             {/* about_section_one start*/}

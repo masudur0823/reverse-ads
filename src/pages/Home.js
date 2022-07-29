@@ -3,6 +3,7 @@ import keywordNetworkHome from '../assets/images/homePage/keyword-network-home.p
 import keywordDataCloud from '../assets/images/homePage/keyword-data-cloud.png'
 import heroVideo from '../assets/images/homePage/hero-video.mp4'
 import videoImg from '../assets/images/homePage/world-reach-section.mp4'
+import openOnternetVideo from '../assets/images/homePage/open-internet-video-homescreen.mp4'
 import google from '../assets/images/homePage/google-homescreen.png'
 import aboutHome from '../assets/images/homePage/about-us-home.png'
 import NewsCard from '../components/NewsCard/NewsCard'
@@ -15,7 +16,7 @@ function Home() {
   return (
     <>
       {/* google page*/}
-      <img src={google} className="google_homescreen" alt="" />
+      <Link to='/googlekeyword'><img src={google} className="google_homescreen" alt="" /></Link>
       {/* google page*/}
       {/* home_sec_one start*/}
       <div className="home_sec_one image_bg">
@@ -68,6 +69,13 @@ function Home() {
 
       {/*home_sec_two start*/}
       <div className="home_sec_two image_bg  d-flex align-items-center">
+        <video loop autoPlay muted>
+          <source
+            src={openOnternetVideo}
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
         <div className="c_container">
           <div className="row m-0">
             <div className="col-sm-6">

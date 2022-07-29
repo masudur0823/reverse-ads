@@ -3,6 +3,11 @@ import NewsImg from '../assets/images/news/Neuromarketing-Digital-Advertising.jp
 import recentImg from '../assets/images/news/Marketing-Secret.jpg'
 
 function NewsDetails() {
+
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <div className="newsDetails pb-5">
