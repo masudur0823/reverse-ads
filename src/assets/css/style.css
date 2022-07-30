@@ -399,18 +399,22 @@ footer {
     padding-left: 20px;
 }
 
-.home_sec_five_table_1 {
-    display: block;
+.home_sec_five_table_div {
+    height: 410px;
+    display: flex;
+    align-items: center;
 }
 
-.home_sec_five_table_2 {
+.home_sec_five_table_div:hover .home_s_f_t_1{
     display: none;
 }
 
+.home_s_f_t_2{display: none;}
 
-.home_sec_five_table_1:hover .home_sec_five_table_2 {
+.home_sec_five_table_div:hover .home_s_f_t_2{
     display: block;
 }
+
 
 
 /* home_sec_five end */

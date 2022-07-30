@@ -162,103 +162,101 @@ function Home() {
                 We have harnessed the power of the open web and created an ever-reaching ecosystem with our clients, partners and networks, to bring scale and reach like no other Ad product.
               </p>
 
-              <div className='home_sec_five_table_1'>
-                <table className='home_sec_five_table text-white mt-2 mt-md-4'>
-                  <tr>
-                    <td className='text_green fw-bold'>Total stats of all clients </td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>Impressions:  </td>
-                    <td>1,596,079,945</td>
-                  </tr>
-                  <tr>
-                    <td>Clicks:  </td>
-                    <td>5,968,638</td>
-                  </tr>
-                  <tr>
-                    <td>Visitors more than 22 seconds:  </td>
-                    <td>68,461</td>
-                  </tr>
-                  <tr>
-                    <td>Conversions:  </td>
-                    <td>5,388</td>
-                  </tr>
-                  <tr>
-                    <td>CTR:  </td>
-                    <td>0.37</td>
-                  </tr>
-                </table>
+              <div className='home_sec_five_table_div'>
+                <div>
+                  <table className='home_sec_five_table home_s_f_t_1 text-white mt-2 mt-md-4'>
+                    <tr>
+                      <td className='text_green fw-bold'>Total stats of all clients </td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Impressions:  </td>
+                      <td>1,596,079,945</td>
+                    </tr>
+                    <tr>
+                      <td>Clicks:  </td>
+                      <td>5,968,638</td>
+                    </tr>
+                    <tr>
+                      <td>Visitors more than 22 seconds:  </td>
+                      <td>68,461</td>
+                    </tr>
+                    <tr>
+                      <td>Conversions:  </td>
+                      <td>5,388</td>
+                    </tr>
+                    <tr>
+                      <td>CTR:  </td>
+                      <td>0.37</td>
+                    </tr>
+                  </table>
 
-                <table className='home_sec_five_table text-white mt-2 mt-md-4'>
-                  <tr>
-                    <td className='text_green fw-bold'>Stats for </td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>Total number of partners:  </td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>Total number of DSPs:  </td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>Total number of clients:  </td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>Total number of publishers:  </td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>Total number of campaigns:  </td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>Total number of countries:   </td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>Total number of languages:    </td>
-                    <td>100</td>
-                  </tr>
-                </table>
-              </div>
+                  <table className='home_sec_five_table home_s_f_t_1 text-white mt-2 mt-md-4'>
+                    <tr>
+                      <td className='text_green fw-bold'>Stats for </td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Total number of partners:  </td>
+                      <td>100</td>
+                    </tr>
+                    <tr>
+                      <td>Total number of DSPs:  </td>
+                      <td>100</td>
+                    </tr>
+                    <tr>
+                      <td>Total number of clients:  </td>
+                      <td>100</td>
+                    </tr>
+                    <tr>
+                      <td>Total number of publishers:  </td>
+                      <td>100</td>
+                    </tr>
+                    <tr>
+                      <td>Total number of campaigns:  </td>
+                      <td>100</td>
+                    </tr>
+                    <tr>
+                      <td>Total number of countries:   </td>
+                      <td>100</td>
+                    </tr>
+                    <tr>
+                      <td>Total number of languages:    </td>
+                      <td>100</td>
+                    </tr>
+                  </table>
+                </div>
 
-              <div className='home_sec_five_table_2'>
-                <table className='home_sec_five_table text-white mt-2 mt-md-4'>
+                <table className='home_sec_five_table home_s_f_t_2 text-white mt-2 mt-md-4'>
                   <tr>
-                    <td className='text_green fw-bold'>Stats for </td>
-                    <td></td>
+                    <td className='text_green fw-bold'>Region:  </td>
+                    <td>Asia</td>
                   </tr>
                   <tr>
-                    <td>Total number of partners:  </td>
-                    <td>100</td>
+                    <td className='text_green fw-bold'>Top Clients:  </td>
+                    <td> Sugarbook, Apta Advantage,
+                      Lendela, SME happy, Weavve
+                      Home  </td>
                   </tr>
                   <tr>
-                    <td>Total number of DSPs:  </td>
-                    <td>100</td>
+                    <td className='text_green fw-bold'>Clicks:   </td>
+                    <td>74,196 </td>
                   </tr>
                   <tr>
-                    <td>Total number of clients:  </td>
-                    <td>100</td>
+                    <td className='text_green fw-bold'>Impressions:  </td>
+                    <td>13,446,997</td>
                   </tr>
                   <tr>
-                    <td>Total number of publishers:  </td>
-                    <td>100</td>
+                    <td className='text_green fw-bold'>CTR:</td>
+                    <td>0.64</td>
                   </tr>
                   <tr>
-                    <td>Total number of campaigns:  </td>
-                    <td>100</td>
+                    <td className='text_green fw-bold'>Conversion:   </td>
+                    <td>476</td>
                   </tr>
                   <tr>
-                    <td>Total number of countries:   </td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>Total number of languages:    </td>
-                    <td>100</td>
+                    <td className='text_green fw-bold'>Visitors: </td>
+                    <td>6,127</td>
                   </tr>
                 </table>
               </div>

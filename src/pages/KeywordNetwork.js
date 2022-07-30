@@ -11,9 +11,7 @@ import CostPerAction from '../components/KeywordNetwork/CostPerAction'
 function KeywordNetwork() {
     const [toggleState, setToggleState] = useState(1);
     const [btnBg, setBtnBg] = useState('bg_pink');
-    React.useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
+
 
     const toggleTab = (index) => {
         setToggleState(index);
@@ -33,7 +31,16 @@ function KeywordNetwork() {
         if (index === 4) {
             setBtnBg('bg_green')
         }
+
     }
+
+
+
+
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             {/* section1 */}
@@ -61,7 +68,7 @@ function KeywordNetwork() {
 
             {/* section2 */}
             <div className="c_container">
-                <div className='sec_py'>
+                <div className='sec_py pb-0'>
                     <h4 className='t_two text-center mb-4 mb-md-5'>Our Solutions</h4>
                     <div className='kn_div'>
                         <div
@@ -114,6 +121,10 @@ function KeywordNetwork() {
                         </div>
                     </div>
 
+                </div>
+            </div>
+            <div className="c_container kn_body_container">
+                <div className="sec_py pt-0">
                     <div className={toggleState === 1 ? 'd-block  kn_body kn_body_app' : 'd-none'}>
                         <KeyowordApp btnBg={btnBg} />
                     </div>
@@ -129,8 +140,6 @@ function KeywordNetwork() {
                     <div className={toggleState === 4 ? 'd-block kn_body kn_body_cos' : 'd-none'}>
                         <CostPerAction btnBg={btnBg} />
                     </div>
-
-
                 </div>
             </div>
         </>
