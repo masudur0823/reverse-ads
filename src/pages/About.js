@@ -93,7 +93,7 @@ function About() {
             {/* INVESTORS & ADVISORS */}
 
             {/* EXECUTIVES */}
-            <div className="sec_py">
+            {/* <div className="sec_py">
                 <div className="c_container">
                     <p className='p_one fw-bold text-center'>EXECUTIVES</p>
                     <div className='investor_grid executives_grid mt-5'>
@@ -119,7 +119,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* EXECUTIVES */}
 
             {/* TEAM */}
