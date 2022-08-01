@@ -6,13 +6,16 @@ import john from '../assets/images/about/john-2.png'
 import bill from '../assets/images/about/bill-2.png'
 import nusli from '../assets/images/about/nusli-2.png'
 import shawn from '../assets/images/about/shawn-2.png'
-import Team from '../components/Api/Team'
+import Team from '../components/About/Team'
+// import team from '../team.json'
 
 function About() {
 
-    React.useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
+    // React.useEffect(() => {
+    //     window.scrollTo(0, 0);
+    // }, []);
+
+
     return (
         <>
             {/* about_section_one start*/}
@@ -120,23 +123,7 @@ function About() {
             {/* EXECUTIVES */}
 
             {/* TEAM */}
-            <div className="sec_py">
-                <div className="c_container">
-                    <p className='p_one fw-bold text-center'>TEAM</p>
-                    <div className='investor_grid executives_grid mt-5'>
-
-                        {
-                            Team.map((t) =>
-                                <div key={t.id}>
-                                    <img src={`${t.imgUrl}`} className="team-img" alt="" />
-                                    <h1 className='team-name'>{t.name}</h1>
-                                    <p className='team-desc'>CEO of Franklin Templeton</p>
-                                </div>
-                            )
-                        }
-                    </div>
-                </div>
-            </div>
+            <Team />
             {/* TEAM */}
 
             {/* about_section_two end*/}
