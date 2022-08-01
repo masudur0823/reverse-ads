@@ -6,9 +6,9 @@ import john from '../assets/images/about/john-2.png'
 import bill from '../assets/images/about/bill-2.png'
 import nusli from '../assets/images/about/nusli-2.png'
 import shawn from '../assets/images/about/shawn-2.png'
+import Team from '../components/Api/Team'
 
 function About() {
-
 
     React.useEffect(() => {
         window.scrollTo(0, 0);
@@ -124,206 +124,16 @@ function About() {
                 <div className="c_container">
                     <p className='p_one fw-bold text-center'>TEAM</p>
                     <div className='investor_grid executives_grid mt-5'>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
-                        <div>
-                            <img src={shawn} className="team-img" alt="" />
-                            <h1 className='team-name'>Jennifer Johnson</h1>
-                            <p className='team-desc'>CEO of Franklin Templeton</p>
-                        </div>
+
+                        {
+                            Team.map((t) =>
+                                <div key={t.id}>
+                                    <img src={`${t.imgUrl}`} className="team-img" alt="" />
+                                    <h1 className='team-name'>{t.name}</h1>
+                                    <p className='team-desc'>CEO of Franklin Templeton</p>
+                                </div>
+                            )
+                        }
                     </div>
                 </div>
             </div>
